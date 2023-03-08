@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+p {
+    margin: 0;
+}
+li {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    list-style: none;
+    padding: 30px 0;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header .headtop-wrapper { 
+    background-color: #032a31;
+    color: #fff;
+}
+.headtop-wrapper .add-social {
+    width: 100%;
+}
+.header .headtop-wrapper .left-wrapper p {
+    display:inline;
+}
+.header .headtop-wrapper .left-wrapper li {
+    text-align: left;
+    padding: 30px 20px;
+}
+.header .headtop-wrapper .left-wrapper {
+    width: 50%;
+}
+.header .headtop-wrapper .right-wrapper {
+    width: 50%;
+}
+.headtop-wrapper .left-wrapper ul {
+    padding: 0px;
+    margin: 0;
+    font-weight: 300;
+}
+.header .headtop-wrapper .right-wrapper ul {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    font-weight: 300;
+}
+.headtop-wrapper .left-wrapper .cont-list:last-child {
+    padding-left: 20px;
+}
+.header .headmid-wrapper .contact-email p {
+    width: 80%;
+}
+.header .headmid-wrapper .contact-email i {
+    font-size: 26px;
+    width: 10%;
+    align-self: center;   
+}
+.header .headtop-wrapper .right-wrapper li {
+    width: 25%;
+}
+.headmid-wrapper h2{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+}
+.header .headmid-wrapper .details-wrapper {
+    align-items: center;
+    width: 40%;
+}
+.header .headmid-wrapper .contact-email {
+    width: 50%;
+}
+.header .headmid-wrapper .details-wrapper a {
+    color:blue;
+}
+ .header .headlow-wrapper {
+    background-color: #813d16;
+    width: 100%;
+ }
+ .header .headlow-wrapper .nav-bar {
+    width: 80%;
+ }
+ .header .headlow-wrapper ul {
+    width: 50%;
+    padding-left:0;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+ }
+ .header .headlow-wrapper li {
+    border: 0px;
+    padding: 20px 0;
+ }
+ .header input {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 80%;
+    color: rgba(255, 255, 255, 0.8);
+    border-right: none;
+    font-size: 20px;
+ }
+.header .headtop-wrapper .cont-list:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+ .header .search-box{
+    margin: auto;
+    font-size: 10px;
+    width: 20%;
+    justify-content: center;
+ }
+.header .headlow-wrapper .search-box i {
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-left: none; 
+}
+.main {
+    background-image: linear-gradient(to right,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)),url(img/img-2.jpg);
+        opacity:0.9;
+    background-size: cover;
+    background-position: center;
+     width: 100%;
+     min-height: 400px;
+     color: #fff;
+     justify-content: center;
+ }
+ .main .main-section {
+    padding: 60px 0;
+    max-width: 50%;
+ }
+ .main-section h1{
+    font-size: 40px;
+ }
+.main .btn-wrapper {
+    margin-top: 20px;
+    justify-content: normal;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+ }
+.main .text-wrapper h1 {
+    font-size: 40px;
+    margin: 0 0 10px;
+ }
+ .main .btn-wrapper i {
+    font-size: 40px;
+    color:#b14d12;
+    background-color: ;
+ }
+.main .btn-wrapper button {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px transparent; 
+    text-transform: capitalize; 
+    font-weight: bold;
+}
+.main .btn-wrapper button:hover {
+    color: #b14d12;
+    background-color: #fff;
+}
+footer {
+    background-color: #032a31;
+    font-family: 'Inconsolata', monospace;
+} 
+footer ul {
+    margin: 0;
+    padding: 0 30px;
+    width: 100%;
+    color:#fff;
+}
+footer ul .foot-list {
+    width: 15%;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-weight: 900;
+}
+footer .foot-list:first-child {
+    border: none;
+}
+footer .foot-list div {
+    width: 50%;
+} 
+footer .foot-list .logo-font {
+    font-size: 30px;
+    text-align: center;
+    width: 30%;
+}
