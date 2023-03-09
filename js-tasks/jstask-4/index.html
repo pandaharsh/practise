@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="java script/index.js"></script>
+  </head>
+  <body>
+    <!--header starts here-->
+    <header onclick="colour()" id="header">
+      <section class="container">
+        <h1>header</h1>
+      </section>
+    </header>
+    <!--header ends here-->
+
+    <!--main starts here-->
+    <main class="flex">
+      <section class="container" id="sidebar" onclick="change()">
+        <h2>sidebar</h2>
+      </section>
+      <section class="container content-wrapper">
+        <div id="main-content">
+          <h2>main content</h2>
+        </div>
+        <div id="extra-content" onclick="fade()">
+          <h2>extra content</h2>
+        </div>
+      </section>
+    </main>
+    <!--main ends here-->
+
+    <!--footer starts here-->
+    <footer onclick="popupOn()">
+      <section class="container">
+        <h2>footer</h2>
+      </section>
+    </footer>
+    <!--footer ends here-->
+    <div id="popup" class="flex">
+      <button onclick="popupOff()">x</button>
+      <h1>I am popup</h1>
+    </div>
+  </body>
+</html>
