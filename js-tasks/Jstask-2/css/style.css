@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  margin: 0px;
+}
+
+.container {
+  position: relative;
+  background-color: #bbd8ff;
+  width: 100%;
+  height: 300px;
+}
+.container > h1 {
+  margin: 0px;
+  padding: 150px;
+}
+
+#title-box {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #def0ac;
+  transition: 0.3s ease;
+}
